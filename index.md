@@ -26,6 +26,7 @@ With that out of the way, the process is relatively simple.
     sudo dnf install pipewire-libpulse pipewire-libjack pipewire-alsa
 ```
 2. Replace PulseAudio and JACK Libraries with PipeWire's
+
 ```
     cd /usr/lib64/
 
