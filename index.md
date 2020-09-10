@@ -22,12 +22,12 @@ With that out of the way, the process is relatively simple.
 
 1. Use your package manager to grab PipeWire:
 
-```
+    ```
     sudo dnf install pipewire-libpulse pipewire-libjack pipewire-alsa
-```
+    ```
 2. Replace PulseAudio and JACK Libraries with PipeWire's
 
-```
+    ```
     cd /usr/lib64/
 
     sudo ln -sf pipewire-0.3/pulse/libpulse-mainloop-glib.so.0 /usr/lib64/libpulse-mainloop-glib.so.0.999.0
@@ -39,14 +39,14 @@ With that out of the way, the process is relatively simple.
     sudo ln -sf pipewire-0.3/jack/libjackserver.so.0 /usr/lib64/libjackserver.so.0.999.0
 
     sudo ldconfig
-```
+    ```
 3. To verify PipeWire was installed successfully, run:
 
-```
+    ```
     pactl info | head -1
     # This should return:
     # Server String: pipewire-0
-```
+    ```
 4. Reboot the system
 
 Congratulations! You've successfully installed PipeWire. Enjoy!
