@@ -10,11 +10,11 @@ title:  "PipeWire"
 
 [PipeWire](https://pipewire.org) is Red Hat's latest attempt at replacing and simplifying the Linux video and audio stack, mainly [ALSA](https://alsa-project.org), [JACK](https://jackaudio.org/), and [PulseAudio](https://pulseaudio.org), with the goal of being a drop-in replacement for all of them.
 
-## Why care?
+## Why Care?
 
 If you've ever interacted with audio (especially real-time or networked audio) on Linux, you've likely experienced headaches at one point or another. This is usually because Linux audio is heavily fragmented: PulseAudio this, ALSA that, JACK; you might have even heard OSS mentioned! Does this seem simple to you? Applications with sound on Linux are almost forced to have layers upon layers of hacks for legacy support. Enter PipeWire.
 
-# How to install PipeWire and replace JACK & PulseAudio on your machine
+# How to Install PipeWire and Replace JACK & PulseAudio on Your Machine
 
 ***A warning:*** *PipeWire doesn't have 100% feature parity with PulseAudio or JACK yet. If you're a power user of PulseAudio's networking features, for example, you might want to hold off on it for a while.*
 
