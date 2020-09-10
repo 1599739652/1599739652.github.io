@@ -22,7 +22,9 @@ With that out of the way, the process is relatively simple.
 
 1. Use your package manager to grab PipeWire:
 
+```
     sudo dnf install pipewire-libpulse pipewire-libjack pipewire-alsa
+```
 
 2. Replace PulseAudio and JACK Libraries with PipeWire's
 
