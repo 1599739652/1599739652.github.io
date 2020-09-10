@@ -21,12 +21,10 @@ If you've ever interacted with audio (especially real-time or networked audio) o
 With that out of the way, the process is relatively simple.
 
 1. Use your package manager to grab PipeWire:
-
     ```
     sudo dnf install pipewire-libpulse pipewire-libjack pipewire-alsa
     ```
 2. Replace PulseAudio and JACK Libraries with PipeWire's
-
     ```
     cd /usr/lib64/
 
@@ -41,7 +39,6 @@ With that out of the way, the process is relatively simple.
     sudo ldconfig
     ```
 3. To verify PipeWire was installed successfully, run:
-
     ```
     pactl info | head -1
     # This should return:
