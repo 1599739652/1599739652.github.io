@@ -50,4 +50,4 @@ Congratulations! You've successfully installed PipeWire. Enjoy!
 
 If you encounter any bugs, you can report them [here](https://gitlab.freedesktop.org/pipewire/pipewire/-/issues).
 
-[^Note]: This is a reference to the expression ["Enter \[Person\],"](https://english.stackexchange.com/questions/32400/expression-enter-somebody) not a sign that I lack fluency in English.
+[^Note]: Note: This is a reference to the expression ["Enter \[Person\],"](https://english.stackexchange.com/questions/32400/expression-enter-somebody) not a sign that I lack fluency in English.
