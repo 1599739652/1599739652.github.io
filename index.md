@@ -12,7 +12,7 @@ title:  "PipeWire"
 
 ## Why Care?
 
-If you've ever interacted with audio (especially real-time or networked audio) on Linux, you've likely experienced headaches at one point or another. This is usually because Linux audio is heavily fragmented: PulseAudio this, ALSA that, JACK; you might have even heard OSS mentioned! Does this seem simple to you? Applications with sound on Linux are almost forced to have layers upon layers of hacks for legacy support. Enter PipeWire.
+If you've ever interacted with audio (especially real-time or networked audio) on Linux, you've likely experienced headaches at one point or another. This is usually because Linux audio is heavily fragmented: PulseAudio this, ALSA that, JACK; you might have even heard OSS mentioned! Does this seem simple to you? Applications with sound on Linux are almost forced to have layers upon layers of hacks for legacy support. Enter PipeWire.[^Note]
 
 # How to Install PipeWire and Replace JACK & PulseAudio on Your Machine
 
@@ -49,3 +49,5 @@ With that out of the way, the process is relatively simple.
 Congratulations! You've successfully installed PipeWire. Enjoy!
 
 If you encounter any bugs, you can report them [here](https://gitlab.freedesktop.org/pipewire/pipewire/-/issues).
+
+[^Note]: This is a reference to the expression ["Enter \[Person\],"](https://english.stackexchange.com/questions/32400/expression-enter-somebody) not a sign that I lack fluency in English.
