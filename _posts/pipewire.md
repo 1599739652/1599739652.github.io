@@ -1,6 +1,9 @@
 ---
-permalink: /pipewire
+layout: page
+title:  "PipeWire"
 ---
+
+
 # PipeWire: Explainer and Installation Guide
 
 ## What's PipeWire?
